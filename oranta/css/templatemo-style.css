@@ -1,0 +1,491 @@
+/**
+
+Ornata Profile Page
+
+https://templatemo.com/tm-530-mini-profile
+
+
+Color Codes
+------------
+purple: #6d5575;
+green: #569b93;
+text blue: #2a3b4c;
+light-beige: #f9f4e4;
+
+*/
+
+html {
+  -webkit-font-smoothing: antialiased;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Georgia", serif;
+  font-size: 20px;
+  font-weight: 400;
+  color: #2a3b4c;
+  overflow-x: hidden;
+  background-color: #f9f4e4;
+background-image: 
+        url('../img/Ornata_line.png'), 
+        url('../img/Ornata_line2.png'), 
+        url('../img/Ornata_line.png'),
+        url('../img/Ornata_line2.png'), 
+        url('../img/Ornata_line.png');
+    
+    background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
+    
+    background-position: 
+        left -180px top 1100px, 
+        left -180px top 1900px, 
+        left -180px top 2600px,
+        right -180px top 1400px, 
+        right -200px top 2300px;
+        
+    background-size: 550px auto, 550px auto, 550px auto, 550px auto, 550px auto;
+}
+h1.tm-brand-name {
+  font-family: "Oleo Script Swash Caps", system-ui;
+  font-weight: 800;
+  font-size: 150px;
+  font-style: normal;
+  color: #6d5575;
+}
+
+.brand-accent {
+  font-family: "Oleo Script Swash Caps", system-ui;
+  font-weight: 700;
+  font-size: 60px;
+  font-style: normal;
+  color: #6d5575;
+}
+
+h2, .tm-welcome-title, .tm-brand-description {
+    font-family: "Playfair Display", serif;
+    font-weight: 600;
+	color: #569b93;
+}	
+	.brand-accent-playfair {
+    font-family: "Playfair Display", serif;
+    font-weight: 400;
+	color: #569b93;
+}
+
+.tm-price-title-color {
+    color: #f9f4e4;
+}
+
+a,
+button {
+  transition: all 0.3s ease;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.container-fluid {
+  max-width: 1200px;
+}
+
+.tm-bg-black-transparent {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.tm-bg-white-transparent {
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.tm-bg-green {
+  background-color: #98cb00;
+}
+
+.tm-bg-orange {
+  background-color: #cc6733;
+}
+
+.tm-bg-blue {
+  background-color: #3398cc;
+}
+
+.tm-bg-dark-gray {
+  background-color: #676767;
+}
+
+/*
+  Welcome section
+*/
+#tmWelcome {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tm-brand-container-outer {
+  margin-top: -600px;
+  padding: 120px;
+  width: 100%;
+}
+
+.tm-brand-container-inner {
+  max-width: 580px;
+  width: 100%;
+  text-align: center;
+}
+
+.tm-brand-container {
+  padding: 0;
+}
+
+.tm-brand-name {
+  font-size: 3.8rem;
+}
+
+.tm-brand-description {
+  font-size: 1.4rem;
+}
+
+.parallax-window {
+  min-height: 1200px;
+  background: transparent;
+}
+
+#tmContact {
+  min-height: 1197px;
+}
+
+.tm-welcome-container {
+  min-height: 400px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  align-items: stretch;
+}
+
+.tm-welcome-title {
+  margin-bottom: 40px;
+}
+
+.tm-welcome-left {
+  padding-right: 30px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.tm-welcome-left-col {
+  display: flex;
+  align-items: center;
+}
+
+.tm-welcome-right {
+  color: #f9f4e4;
+  background-color: #6d5575D9;
+  padding: 80px 43px 70px;
+  height: 100%;
+}
+
+.tm-welcome-icon {
+  margin-bottom: 50px;
+  display: block;
+  text-align: center;
+}
+
+/*
+  Portfolio section
+*/
+
+#tmPortfolio {
+  padding-top: 80px;
+}
+
+.tm-portfolio-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 80px;
+}
+
+.tm-portfolio-name {
+  width: 330px;
+  height: 220px;
+  font-size: 2rem;
+  padding: 70px 95px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.tm-portfolio-description {
+  width: calc(100% - 330px);
+  padding: 20px 45px;
+  text-align: justify;
+}
+
+.tm-portfolio-description h3 {
+  margin-bottom: 20px;
+}
+
+.tm-text-green {
+  color: #98cb00;
+}
+
+.tm-text-orange {
+  color: #cc6733;
+}
+
+.tm-text-blue {
+  color: #3398cc;
+}
+
+.tm-text-dark-gray {
+  color: #676767;
+}
+
+.tm-price-card {
+    flex: 1;
+    background: #569b93B5;
+    padding: 15px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.tm-price-card-img-box {
+    text-align: center;
+    height: 110px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+	margin-bottom: 5px;
+}
+
+.tm-price-card-img {
+    max-height: 100px;
+    width: auto;
+    object-fit: contain;
+}
+
+.tm-price-card-title {
+    text-align: center;
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.tm-price-card-text {
+    font-size: 16px;
+    margin-bottom: 15px;
+    line-height: 1.5;
+	text-align: justify;
+}
+
+.tm-price-card-footer {
+    border-top: 3px solid #6d5575;
+    padding-top: 15px;
+    text-align: center;
+}
+
+.tm-price-card-price {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.tm-title-small {
+  font-size: 1.3rem;
+}
+
+p {
+  line-height: 1.8;
+}
+
+/*
+  Contact section
+*/
+
+#tmContact {
+  padding-top: 95px;
+}
+
+.tm-contact-item {
+  width: 33.3334%;
+  max-width: 345px;
+  height: auto;
+  min-height: 280px;
+  margin-right: 35px;
+  background-color: rgba(109, 85, 117, 0.75) !important;
+  backdrop-filter: blur(5px);
+  border-radius: 12px;
+  padding: 25px 20px !important;                       
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.tm-contact-item h3 {
+    color: #569b93;
+    font-weight: bold;
+    text-align: center;
+}
+
+.tm-contact-item p {
+    color: #f9f4e4;
+    text-align: justify !important;
+    line-height: 1.7;
+}
+
+.tm-contact-item:last-child {
+  margin-right: 0;
+}
+
+.tm-contact-items-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 130px;
+}
+
+.tm-contact-item-icon {
+  margin-bottom: 45px;
+  width: 100%;
+  height: 160px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#tmContactForm {
+  width: 100%;
+  max-width: 680px;
+  padding: 45px 45px 30px;
+  margin-bottom: 95px;
+}
+
+.form-group {
+  max-width: 355px;
+}
+
+.form-control {
+  background: transparent;
+  border-color: #999999;
+  padding: 15px 10px;
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+}
+
+.tm-btn-submit {
+  background-color: #999999;
+  padding: 12px 30px;
+  font-size: 1.2rem;
+}
+
+.tm-btn-submit:focus,
+.tm-btn-submit:hover {
+  background-color: #676767;
+}
+
+.tm-copyright-text {
+  margin-bottom: 30px;
+}
+
+.tm-link {
+  color: #676767;
+}
+
+@media (max-width: 1054px) {
+  .tm-contact-item-icon {
+    margin-bottom: 15px;
+  }
+}
+
+@media (max-width: 991px) {
+  .tm-contact-items-container {
+    flex-direction: column;
+  }
+
+  .tm-contact-item {
+    width: auto;
+    max-width: 680px;
+    min-height: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+  }
+
+  .tm-contact-item:last-child {
+    margin-right: auto;
+    margin-bottom: 0;
+  }
+
+  #tmContactForm {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (max-width: 730px) {
+  .tm-portfolio-item {
+    flex-direction: column;
+  }
+
+  .tm-portfolio-name {
+    justify-content: center;
+  }
+
+  .tm-portfolio-name,
+  .tm-portfolio-description {
+    width: 100%;
+  }
+
+  .tm-portfolio-description {
+    padding: 20px 30px;
+  }
+}
+
+@media (max-width: 572px) {
+  .tm-brand-container {
+    padding: 45px;
+  }
+}
+
+@media (max-width: 443px) {
+  .tm-brand-name {
+    font-size: 3rem;
+  }
+
+  .tm-brand-container {
+    padding: 25px;
+  }
+}
+
+#tmPortfolio::before {
+    content: "";
+    position: absolute;
+    left: auto;
+	right: 0;
+    top: 0;
+    width: 700px;
+    height: 700px;
+    background-image: url('../img/tree.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+	opacity: 0.5;
+    z-index: 0; 
+}
+
+#tmPortfolio {
+    position: relative;
+}
+
+#tmPortfolio::after {
+    content: "";
+    position: absolute;
+    right: 20px;
+    top: 400px;
+    width: 400px;
+    height: 200px;    
+    background-image: url('../img/birds.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    opacity: 0.9;
+    z-index: 1;
+}
+
+#tmPortfolio {
+    position: relative;
+}
